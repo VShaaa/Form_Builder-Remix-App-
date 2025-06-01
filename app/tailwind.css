@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Inter',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.scrollbar-hide {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.bg-offwhite {
+  background-color: #f8f9fa;
+  background-image: radial-gradient(#ff6b6b22 1px, transparent 1px);
+  background-size: 16px 16px;
 }

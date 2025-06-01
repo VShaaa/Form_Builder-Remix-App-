@@ -1,5 +1,5 @@
 {
-  "name": "form_builder_remixapp",
+  "name": "form-builder",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -11,16 +11,20 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/node": "^2.16.8",
-    "@remix-run/react": "^2.16.8",
-    "@remix-run/serve": "^2.16.8",
+    "@remix-run/node": "^2.16.7",
+    "@remix-run/react": "^2.16.7",
+    "@remix-run/serve": "^2.16.7",
+    "docx": "^9.5.0",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.10.3",
     "isbot": "^4.1.0",
+    "lucide-react": "^0.511.0",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.16.8",
-    "@types/react": "^18.2.20",
+    "@remix-run/dev": "^2.16.7",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
@@ -33,7 +37,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.1.6",
     "vite": "^6.0.0",
     "vite-tsconfig-paths": "^4.2.1"
   },
